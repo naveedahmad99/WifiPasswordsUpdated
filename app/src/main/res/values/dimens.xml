@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="app_bar_top_padding">0dp</dimen>
+    <dimen name="card_layout_margin">8dp</dimen>
+
+    <dimen name="size_word">16dp</dimen>
+    <dimen name="size_half_byte">4dp</dimen>
+    <dimen name="size_byte">8dp</dimen>
+    <dimen name="size_text_primary">16sp</dimen>
+    <dimen name="size_text_secondary">14sp</dimen>
+    <dimen name="size_list_item">72dp</dimen>
+
+    <dimen name="dialog_input_margin">16dp</dimen>
+    <dimen name="dialog_help_margin">16dp</dimen>
+    <dimen name="dialog_help_padding">4dp</dimen>
+
+    <dimen name="passcode_logo_top_margin">50dp</dimen>
+    <dimen name="passcode_row_margin">4dp</dimen>
+    <dimen name="passcode_row_padding">4dp</dimen>
+    <dimen name="passcode_button_padding">4dp</dimen>
+    <dimen name="passcode_radio_padding">4dp</dimen>
+    <dimen name="passcode_radio_margin">4dp</dimen>
+    <dimen name="passcode_description_margin_top">10dp</dimen>
+
+</resources>

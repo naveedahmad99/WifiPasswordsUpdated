@@ -1,0 +1,140 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme.Dark.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorHighlight</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <!-- Context Action Mode will Overlay Toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeCloseDrawable">@android:drawable/ic_menu_close_clear_cancel</item>
+
+        <item name="android:dialogTheme">@style/InputDialogTheme</item>
+
+    </style>
+
+    <!-- Dark Theme Variant -->
+    <style name="AppTheme.Dark.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/Dark.colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Dark.colorPrimaryDark</item>
+        <item name="colorAccent">@color/Dark.colorAccent</item>
+        <item name="colorControlHighlight">@color/colorHighlight</item>
+        <item name="android:colorBackground">@color/Dark.colorBackground</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat</item>
+
+        <!-- Context Action Mode will Overlay Toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeCloseDrawable">@android:drawable/ic_menu_close_clear_cancel</item>
+
+        <item name="android:dialogTheme">@style/InputDialogTheme.Dark</item>
+
+    </style>
+
+    <!--********************-->
+    <!-- Alert Dialog Theme -->
+    <!--********************-->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/AlertDialogTheme.Animation</item>
+    </style>
+
+    <style name="AlertDialogTheme.Dark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/AlertDialogTheme.Animation</item>
+    </style>
+
+    <style name="AlertDialogTheme.Animation">
+        <item name="android:windowEnterAnimation">@anim/shrink_and_fold_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_and_fold_out</item>
+        <item name="android:interpolator">@android:interpolator/accelerate_quint</item>
+    </style>
+
+    <style name="DeleteDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/DeleteDialogTheme.Animation</item>
+    </style>
+
+    <style name="DeleteDialogTheme.Dark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/DeleteDialogTheme.Animation</item>
+    </style>
+
+    <style name="DeleteDialogTheme.Animation">
+        <item name="android:windowEnterAnimation">@anim/scale_from_top_right_corner</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_top_right_corner</item>
+        <item name="android:interpolator">@android:interpolator/accelerate_decelerate</item>
+    </style>
+
+    <!--**********************-->
+    <!-- DialogFragment Theme -->
+    <!--**********************-->
+    <style name="InputDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorHighlight</item>
+
+        <!-- Windows Properties -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@style/InputDialogTheme.Animation</item>
+
+    </style>
+
+    <!-- Dark Theme Variant -->
+    <style name="InputDialogTheme.Dark" parent="Theme.AppCompat.Dialog">
+
+        <!-- Windows Properties -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@style/InputDialogTheme.Animation</item>
+
+    </style>
+
+
+    <style name="InputDialogTheme.Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_slide_out_bottom</item>
+        <item name="android:interpolator">@android:interpolator/anticipate</item>
+    </style>
+
+
+    <!-- Toolbar title to fix Landscape text size -->
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <!-- FAB -->
+    <style name="floating_action_button">
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+
+    <!-- Passcode Radio Buttons -->
+    <style name="PasscodeRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="PasscodeRadioButton.Dark" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/colorWhite</item>
+    </style>
+
+    <style name="PasscodeRadioButtonError" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/colorRed500</item>
+    </style>
+
+</resources>

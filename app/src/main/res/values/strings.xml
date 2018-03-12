@@ -1,0 +1,288 @@
+<resources>
+
+    <string name="text_placeholder">NA</string>
+    <string name="toast_root_request">Requesting Root Permission…</string>
+    <string name="toast_nothing_selected">Please select at least 1 wifi password</string>
+
+    <!--*****************-->
+    <!-- Activity Titles -->
+    <!--*****************-->
+    <string name="app_name">Wifi Passwords</string>
+    <string name="activity_title_settings">Settings</string>
+    <string name="activity_title_hidden_wifi">Hidden Passwords</string>
+    <string name="activity_title_intro">Intro</string>
+    <string name="activity_title_passcode">Passcode</string>
+
+    <!--****************-->
+    <!-- Intro Messages -->
+    <!--****************-->
+    <string name="intro_title_welcome">Welcome to \nWifi Passwords</string>
+    <string name="intro_message_welcome">Using this app you can save, tag &amp; share your saved Wifi Passwords</string>
+
+    <string name="intro_title_disclaimer">Be Careful!</string>
+    <string name="intro_message_disclaimer">Sharing a Wifi Network\'s password can compromise its security
+        \n\nDo so at your own discretion!</string>
+
+    <string name="intro_title_root">Grant Root Permission</string>
+    <string name="intro_message_root">The app requires Root Permission to access your device saved wifi passwords</string>
+
+    <string name="intro_title_quick_copy">Quick Copy</string>
+    <string name="intro_message_quick_copy">To quickly copy a wifi password, simply Double-Tap it.</string>
+
+    <string name="intro_title_cab">Tag, Copy, Share, Hide</string>
+    <string name="intro_message_cab">Long press a wifi password &amp; choose your desired action
+        \n\nYou can select multiple wifi passwords</string>
+
+    <string name="intro_title_thank_you">Thank you for choosing \nWifi Passwords</string>
+
+
+    <!--*******************-->
+    <!-- Snackbar & Toasts -->
+    <!--*******************-->
+    <string name="snackbar_wifi_copy">Wifi info Copied to Clipboard</string>
+    <string name="snackbar_dismiss">Dismiss</string>
+    <string name="snackbar_undo">Undo</string>
+    <string name="snackbar_load_from_file">Updating list</string>
+    <string name="snackbar_wifi_archive">Wifi Password is now hidden</string>
+    <string name="snackbar_wifi_archive_multiple">Wifi Passwords are now hidden</string>
+    <string name="snackbar_wifi_restore">Wifi Password no longer hidden</string>
+    <string name="snackbar_wifi_exists">Wifi Password already exists!</string>
+    <string name="snackbar_wifi_entries_inserted">new Wifi Passwords</string>
+    <string name="snackbar_wifi_entries_inserted_none">No new Wifi Passwords</string>
+    <string name="snackbar_wifi_no_password_added">Wifi without passwords added</string>
+    <string name="snackbar_wifi_no_password_removed">Wifi without passwords removed</string>
+    <string name="snackbar_move_to_top">Wifi Passwords moved to top</string>
+
+    <string name="toast_cab_double_tap">Tap once to select</string>
+    <string name="toast_crashlytics_opt_out">Requires app restart to take effect</string>
+
+    <!--**********************-->
+    <!-- Content Descriptions -->
+    <!--**********************-->
+    <string name="description_collapsing_header" translateable="false">collapsing header</string>
+    <string name="description_drag_handler" translateable="false">Drag Icon</string>
+    <string name="description_tag_wifi_icon" translateable="false">Tag Icon</string>
+    <string name="description_passcode_digit" translateable="false">Digit Button</string>
+    <string name="description_passcode_logo" translateable="false">Passcode Logo</string>
+
+
+    <!--**************-->
+    <!-- Toolbar Menu -->
+    <!--**************-->
+    <string name="action_archive">Hidden Passwords</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_from_file">Update List</string>
+    <string name="action_help">Help &amp; Feedback</string>
+    <string name="action_share">Share</string>
+    <string name="action_search">Search</string>
+    <string name="action_sort_start">Sort List</string>
+    <string name="action_sort_done">Done Sorting</string>
+
+
+    <!--********************-->
+    <!-- Context Action Bar -->
+    <!--********************-->
+    <string name="context_tag">Tag</string>
+    <string name="context_copy">Copy</string>
+    <string name="context_share">Share</string>
+    <string name="context_archive">Hide</string>
+    <string name="context_restore">Restore</string>
+    <string name="context_delete">Delete</string>
+
+
+    <!--*********************-->
+    <!-- General Preferences -->
+    <!--*********************-->
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_behavior">Appearance &amp; Behavior</string>
+    <string name="pref_category_security">Privacy</string>
+    <string name="pref_category_default">Reset to Default</string>
+
+    <string name="pref_path_default" translateable="false">/data/misc/wifi/wpa_supplicant.conf</string>
+    <string name="pref_path_manual_key" translateable="false">pref_path_manual</string>
+    <string name="pref_path_manual_title">Manual Location</string>
+    <string name="pref_path_list_key" translateable="false">pref_path_list</string>
+    <string name="pref_path_list_title">File Location</string>
+
+    <string name="pref_path_checkbox_key" translateable="false">pref_path_checkbox</string>
+    <string name="pref_path_checkbox_title">Enter file location manually</string>
+
+    <string name="pref_reset_manual_key" translateable="false">pref_reset_manual</string>
+    <string name="pref_reset_manual_summary">restore default path</string>
+    <string name="pref_reset_manual_title">Reset Manual Location</string>
+
+    <string name="pref_default_key" translateable="false">pref_default</string>
+    <string name="pref_default_title">Reset Data</string>
+    <string name="pref_default_summary">Delete all the data and reload it from your device</string>
+
+    <string-array name="wpa_supplicant_locations">
+        <item>/data/misc/wifi/wpa_supplicant.conf</item>
+        <item>/data/wifi/bcm_supp.conf</item>
+        <item>/data/misc/wifi/wpa.conf</item>
+        <item>Manual</item>
+    </string-array>
+    <string name="pref_path_list_manual">Manual</string>
+
+    <string name="pref_share_warning_key" translateable="false">pref_share_warning</string>
+    <string name="pref_share_warning_title_show">Show Share Warning</string>
+    <string name="pref_share_warning_summary">a warning before sharing WiFi passwords</string>
+
+    <string name="pref_show_no_password_key" translateable="false">pref_show_no_password</string>
+    <string name="pref_show_no_password_title">Show open WiFi networks</string>
+    <string name="pref_show_no_password_summary">list networks that don\'t have a password</string>
+
+    <string name="pref_dark_theme_key" translateable="false">pref_dark_theme</string>
+    <string name="pref_dark_theme_title">Dark Theme</string>
+    <string name="pref_dark_theme_summary">Cause the app to restart &amp; apply theme</string>
+
+    <string name="pref_auto_update_key" translateable="false">auto_update_list</string>
+    <string name="pref_auto_update_title">Auto-Update frequency</string>
+    <string name="pref_auto_update_default">1</string>
+    <string name="pref_auto_update_default_summary">Update WiFi list Once a day</string>
+    <string name="pref_auto_update_summary">Update Wifi list</string>
+    <string-array name="pref_auto_update_list_modes">
+        <item>Disabled</item>
+        <item>Once a day</item>
+        <item>Once a week</item>
+    </string-array>
+    <string-array name="pref_auto_update_list_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>7</item>
+    </string-array>
+
+
+    <string name="pref_crashlytics_optout_key" translateable="false">crashlytics_optout</string>
+    <string name="pref_crashlytics_optout_title">Disable anonymous crash reports</string>
+    <string name="pref_crashlytics_optout_summary">Sending crash reports help diagnose &amp; fix problems with the app, no private data is collected</string>
+
+    <!--**********************-->
+    <!-- Passcode Preferences -->
+    <!--**********************-->
+    <string name="pref_header_passcode_key" translateable="false">passcode_header</string>
+    <string name="pref_header_passcode_title">Configure Passcode</string>
+    <string name="pref_passcode_toolbar_title">Passcode</string>
+
+    <string name="pref_passcode_toggle_key" translateable="false">pref_passcode_toggle</string>
+    <string name="pref_passcode_toggle_title_on">Turn passcode on</string>
+    <string name="pref_passcode_toggle_title_off">Turn passcode off</string>
+    <string name="pref_passcode_toggle_summary">a 4 digit passcode to protect your data</string>
+
+    <string name="pref_passcode_change_key" translateable="false">pref_passcode_change</string>
+    <string name="pref_passcode_change_title">Change passcode</string>
+
+
+    <!--***************-->
+    <!-- Alert Dialogs -->
+    <!--***************-->
+    <string name="dialog_error_path_key" translateable="false">dialog_error</string>
+    <string name="dialog_error_path_title">Error!</string>
+    <string name="dialog_error_path_message">Could not find Wifi Password list \nWould you like to enter the path manually through settings?</string>
+    <string-array name="dialog_error_path_buttons">
+        <item>Settings</item>
+        <item>Dismiss</item>
+    </string-array>
+
+    <string name="dialog_warning_reset_key" translateable="false">dialog_warning_reset</string>
+    <string name="dialog_warning_reset_title">Warning!</string>
+    <string name="dialog_warning_reset_message">Reloading data from device will erase current list
+        \n(manually entered passwords will be lost)</string>
+    <string-array name="dialog_warning_reset_buttons">
+        <item>Reload</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="dialog_exit_key" translateable="false">dialog_exit</string>
+    <string name="dialog_exit_title">Exit</string>
+    <string name="dialog_exit_message">Are you sure you want to close \nWifi Passwords?</string>
+    <string-array name="dialog_exit_buttons">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="dialog_delete_key" translateable="false">dialog_delete</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Are you sure? \n\nDeleting these passwords will permanently remove them from Wifi Passwords</string>
+    <string-array name="dialog_delete_buttons">
+        <item>Confirm</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="dialog_warning_share_key" translateable="false">dialog_warning_share</string>
+    <string name="dialog_warning_share_title">Warning!</string>
+    <string name="dialog_warning_share_message">Sharing a Wifi password can compromise its security!</string>
+    <string-array name="dialog_warning_share_buttons">
+        <item>OK</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="dialog_error_root_key" translateable="false">dialog_error_root</string>
+    <string name="dialog_error_root_title">Error! No Root Permission!</string>
+    <string name="dialog_error_root_message">
+        The app cannot access your saved wifi passwords without Root Permission
+        \n\nYou may still add wifi passwords manually
+        \n\n(To try again please grant this app Root permission and tap \"Update List\" in the options menu)</string>
+    <string-array name="dialog_error_root_button">
+        <item>Dismiss</item>
+    </string-array>
+
+
+    <!--*****************-->
+    <!-- Dialog Fragment -->
+    <!--*****************-->
+    <string name="dialog_add_key" translateable="false">dialog_input_add</string>
+    <string name="dialog_add_title_hint">Title</string>
+    <string name="dialog_add_password_hint">Password</string>
+    <string name="dialog_add_title">Add Wifi Password</string>
+    <string name="dialog_add_error_empty">One or More fields are blank</string>
+    <string name="dialog_add_title_empty">Title cannot be empty</string>
+    <string name="dialog_add_password_empty">Password cannot be empty</string>
+    <string-array name="dialog_add_buttons">
+        <item>Add</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="dialog_tag_key" translateable="false">dialog_input_tag</string>
+    <string name="dialog_tag_title">Modify Tag</string>
+    <string name="dialog_tag_error">Tag cannot be empty</string>
+    <string name="dialog_tag_hint">Tag</string>
+    <string name="dialog_tag_button">Save</string>
+
+
+    <string name="dialog_about_key" translateable="false">dialog_about</string>
+    <string name="dialog_about_title">Help &amp; Feedback</string>
+    <string name="dialog_about_info">Wifi Passwords by Nexxado - <a href="mailto:ndrdevelop@gmail.com">Send Feedback</a></string>
+    <string name="dialog_about_github"><a href="https://github.com/Nexxado/WifiPasswords">GitHub Repo</a></string>
+    <string name="dialog_about_version">Version:</string>
+    <string name="dialog_about_version_error">Version: ###</string>
+    <string name="dialog_about_libraries_title"><u>External Libraries Used:</u></string>
+    <string name="dialog_about_library_butterknife"><a href="https://github.com/JakeWharton/butterknife">Butter Knife</a> by Jake Wharton</string>
+    <string name="dialog_about_library_retrolambda"><a href="https://github.com/evant/gradle-retrolambda">Gradle Retrolambda Plugin</a>  by Evan Tatarka</string>
+    <string name="dialog_about_library_materialprogressbar"><a href="https://github.com/DreaminginCodeZH/MaterialProgressBar">MaterialProgressBar</a> by Zhang Hai</string>
+    <string name="dialog_about_library_appintro"><a href="https://github.com/PaoloRotolo/AppIntro">AppIntro</a> by Paolo Rotolo</string>
+    <string name="dialog_about_library_rippleeffect"><a href="https://github.com/traex/RippleEffect">RippleEffect</a> by Robin Chutaux</string>
+    <string name="dialog_about_help_title"><u>Get Help:</u></string>
+    <string name="dialog_about_help_intro"><u>Show Intro</u></string>
+    <string name="dialog_about_help_readme"><a href="https://github.com/Nexxado/WifiPasswords/blob/master/README.md">Readme</a></string>
+    <string name="dialog_about_button">OK</string>
+
+
+    <string name="dialog_rate_title">Rate Wifi Passwords</string>
+    <string name="dialog_rate_message">If you enjoy using this app, please take a moment to rate it.\nit won\'t take more than a minute.\nThanks for your support.</string>
+    <string name="dialog_rate_button_positive">Rate now</string>
+    <string name="dialog_rate_button_remindlater">Remind later</string>
+    <string name="dialog_rate_button_never">No, thanks</string>
+
+
+    <!--*******************-->
+    <!-- Passcode Activity -->
+    <!--*******************-->
+    <string name="passcode_description">Enter your passcode</string>
+    <string name="passcode_description_error">Wrong passcode. Please try again</string>
+    <string name="passcode_description_reenter">Re-enter your passcode</string>
+    <string name="passcode_description_old">Enter your old passcode</string>
+    <string name="passcode_description_new">Enter your new passcode</string>
+    <string name="passcode_description_new_reenter">Re-enter your new passcode</string>
+
+
+</resources>

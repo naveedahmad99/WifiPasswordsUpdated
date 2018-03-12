@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Animations -->
+    <integer name="config_slide_time">200</integer>
+    <integer name="activity_animation_duration">350</integer>
+    <integer name="dialog_animation_duration">350</integer>
+    <integer name="fragment_animation_duration">350</integer>
+    <integer name="fragment_animation_distance">-1500</integer>
+
+    <integer name="passcode_button_zoom_duration">25</integer>
+    <integer name="passcode_button_ripple_duration">200</integer>
+
+</resources>

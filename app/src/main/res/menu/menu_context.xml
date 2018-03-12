@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_context_top"
+        android:title="top"
+        android:icon="@drawable/ic_action_context_top"/>
+
+    <item android:id="@+id/menu_context_tag"
+        android:title="@string/context_tag"
+        android:icon="@drawable/ic_action_context_tag" />
+
+    <item android:id="@+id/menu_context_copy"
+        android:title="@string/context_copy"
+        android:icon="@drawable/ic_action_context_copy" />
+
+    <item android:id="@+id/menu_context_share"
+        android:title="@string/context_share"
+        android:icon="@drawable/ic_action_share" />
+
+    <item android:id="@+id/menu_context_archive"
+        android:title="@string/context_archive"
+        android:icon="@drawable/ic_action_context_archive" />
+
+</menu>
