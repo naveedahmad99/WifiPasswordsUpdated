@@ -1,8 +1,6 @@
-# WifiPasswords
+# WifiPasswordsUpdated - (For Rooted Android Devices)
 
-this is my first Android Project.
-
-#### a completely free app that shows your device saved wifi passwords.
+#### A completely free app that shows your device saved wifi passwords on Rooted Device.
 
 
 Warning: sharing a wifi password with someone can compromise that wifi network security!
@@ -57,6 +55,9 @@ the most commonly used paths by manufacturers which the app automatically tries 
 
 
 <a href="#wifipasswords">Back to Top</a>
+
+### Acknowledegment: 
+This Project was posted from "https://github.com/Nexxado/WifiPasswords" as things were updated in Anroid Studio and dependencies libs, project was not working as expected, so I updated everything to tried to pushed to the repository but it was not permitting me to do so. I tried to contact the repository owner but no details were found in the account other than username. So, created a fresh repository. I appreciate the developer for developing the project.
 
 ## License
 
